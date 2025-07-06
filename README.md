@@ -5,7 +5,7 @@ Place your translation JSON files inside any `locales` directory, anywhere withi
 Each JSON file ***should*** be named after the language code, for example:  
 `en.json`, `es.json`, `fr.json`.
 <br>
-(even calling it terrorism.json works)
+(even calling it terrorism.json works, as long as it's a valid file)
 
 Ensure you have a `.env` file with a `locale` variable that sets your default language code, like so:  
 ```env
