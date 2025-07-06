@@ -3,3 +3,4 @@ __pycache__
 locales/
 locales/it.json
 locales/en.json
+translation_report.txt
