@@ -1,3 +1,4 @@
 {
-    "hello_key": "Hello World!"
+    "hello_key": "Hello World!",
+    "fallback_key": "This is a fallback!"
 }
