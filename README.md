@@ -1,25 +1,11 @@
+## How To Use
 
-How To Use
+Place your translation JSON files inside any `locales` directory, anywhere within your project or working folder.
 
-Put your translation JSON files inside locales directories anywhere under your project or working directory.
+Each JSON file ***should*** be named after the language code, for example:  
+`en.json`, `es.json`, `fr.json`.
+(even calling it terrorism.json works)
 
-Each JSON file must be named as the language code, e.g., en.json, es.json.
-
-Make sure you have a .env file with a locale variable defining your default language code (eg locale=en).
-
-Start the loader
-
-Just import or run this script — it immediately:
-
-Loads all translation files it finds.
-
-Starts a background thread watching those files for any edits.
-
-Set language
-
-Call set_language("fr") to switch the active locale dynamically.
-
-Fetch translations
-
-Use _('some.key') anywhere to get the localized string.
-
+Ensure you have a `.env` file with a `locale` variable that sets your default language code, like so:  
+```env
+locale=en
