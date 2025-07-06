@@ -1,2 +1,5 @@
 __pycache__
 .env
+locales/
+locales/it.json
+locales/en.json
